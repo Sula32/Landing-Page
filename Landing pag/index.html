@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="footer.css">
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Landing page</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor vai até 
+                    <span>você</span>
+                </h1>
+                    <p class="description">
+                        Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Necessitatibus, odit 
+                        reprehenderit voluptatibus temporibus nisi, 
+                        placeat amet minima minus harum quas, voluptas
+                         sapiente eos nulla tempore exercitationem laborum nihil perferendis tenetur!
+                    </p> 
+
+                    <div id="cta_buttons">
+                        <a href="#" class="btn-default">
+                            Ver cardápio
+                        </a>
+                        <a href="te:+54984363700" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (54) 98436-3700
+
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                </div>
+            </div>
+            <div id="banner">
+                <img src="./img/hero.png" alt="">
+
+            </div>
+        </section>
+
+        <section id="menu">
+           <h2 class="section-tittle">Cardápio</h2> 
+           <h3 class="section-subtitle"> Nossos pratos especiais</h3>
+
+           <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                      <i class="fa-solid fa-heart"></i> 
+
+                    </div>
+                    <img src="img/prato 4.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    </h3>
+
+                    <span class="dish-description">
+                       Lorem ipsum dolor sit, amet  
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$20,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i> 
+
+                    </div>
+                    <img src="img/prato 1.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    </h3>
+
+                    <span class="dish-description">
+                    Lorem ipsum dolor sit, amet  
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$30,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i> 
+
+                    </div>
+                    <img src="img/prato 2.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    </h3>
+
+                    <span class="dish-description">
+                    Lorem ipsum dolor sit, amet  
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$55,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                    <i class="fa-solid fa-heart"></i> 
+
+                    </div>
+                    <img src="img/prato 3.png" class="dish-img" alt="">
+
+                    <h3 class="dish-title">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+
+                    </h3>
+
+                    <span class="dish-description">
+                    Lorem ipsum dolor sit, amet  
+                    </span>
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+                    <div class="dish-price">
+                        <h4>R$48,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <footer>
+        <div id="footer_items">
+            <span id="copyright">
+                Sula Abreu Costamilan
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./javascript/script.js"></script>
+    
+</body>
+</html>
